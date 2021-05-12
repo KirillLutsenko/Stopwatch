@@ -1,1 +1,31 @@
-/* go styles here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Black Ops One', sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #039103;
+}
+
+.stopwatch {
+  width: 225px;
+
+  &__display {
+    font-size: 36px;
+  }
+}
+
+.no-focus a,
+.no-focus button {
+  outline: none;
+}
